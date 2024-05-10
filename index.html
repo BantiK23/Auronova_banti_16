@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auronova Automated Validation Document Tool using GenAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for company logo */
+        .company-logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Company logo
+    <img class="company-logo" src="logo.jpg" alt="Company Logo">
+    <br><br>
+    <h1>Auronova Automated Validation Document Tool using GenAI</h1>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <label for="file">Upload CSV/Excel file:</label><br>
+        <input type="file" id="file" name="file" accept=".csv, .xlsx"><br><br>
+
+        <label for="portfolio_code">Portfolio Code:</label><br>
+        <input type="text" id="portfolio_code" name="portfolio_code"><br><br>
+
+        <label for="is_islamic">Is Islamic:</label><br>
+        <input type="checkbox" id="is_islamic" name="is_islamic"><br><br>
+
+        <label for="current_qtr">Current Quarter:</label><br>
+        <input type="text" id="current_qtr" name="current_qtr"><br><br>
+
+        <label for="bank_name">Bank Name:</label><br>
+        <input type="text" id="bank_name" name="bank_name"><br><br>
+
+        <label for="model_dev_benchmark_date">Model Development Benchmark Date:</label><br>
+        <input type="date" id="model_dev_benchmark_date" name="model_dev_benchmark_date"><br><br>
+
+        <label for="model_dev_snap_date">Model Development Snap Date:</label><br>
+        <input type="date" id="model_dev_snap_date" name="model_dev_snap_date"><br><br>
+
+        <label for="gini_method">Gini Method:</label><br>
+        <select id="gini_method" name="gini_method">
+            <option value="scorepoint">SCORE POINT</option>
+            <option value="decile">DECILE</option>
+        </select><br><br>
+
+        <label for="gini_type">Gini Type:</label><br>
+        <select id="gini_type" name="gini_type">
+            <option value="monthly">MONTHLY</option>
+            <option value="quarterly">QUARTERLY</option>
+        </select><br><br>
+
+        <label for="mape_type">MAPE Type:</label><br>
+        <select id="mape_type" name="mape_type">
+            <option value="monthly">MONTHLY</option>
+            <option value="quarterly">QUARTERLY</option>
+        </select><br><br>
+
+        <input type="submit" value="Generate Output">
+    </form>
+
+    <br>
+    <h2>Output Data:</h2>
+    <p>Please click the button below to download the output document.</p>
+    <a href="/download" download="output.docx"><button>Download Output Doc</button></a> -->
+    <!-- Company logo -->
+    <div class="image_section">
+    <img class="company-logo" src="logo.jpg" alt="Company Logo">
+    </div>
+    <br><br>
+    <h1>Auronova Automated Validation Document Tool using GenAI</h1>
+    <div class="section1">
+    <div class="section2">
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <label for="file">Upload CSV/Excel file:</label><br>
+        <input type="file" id="file" name="file" accept=".csv, .xlsx"><br><br>
+
+        <label for="portfolio_code">Portfolio Code:</label><br>
+        <input type="text" id="portfolio_code" name="portfolio_code"><br><br>
+
+        <label for="is_islamic">Is Islamic:</label><br>
+        <input type="checkbox" id="is_islamic" name="is_islamic"><br><br>
+
+        <label for="current_qtr">Current Quarter:</label><br>
+        <input type="text" id="current_qtr" name="current_qtr"><br><br>
+
+        <label for="bank_name">Bank Name:</label><br>
+        <input type="text" id="bank_name" name="bank_name"><br><br>
+
+        <label for="model_dev_benchmark_date">Model Development Benchmark Date:</label><br>
+        <input type="date" id="model_dev_benchmark_date" name="model_dev_benchmark_date"><br><br>
+
+        <label for="model_dev_snap_date">Model Development Snap Date:</label><br>
+        <input type="date" id="model_dev_snap_date" name="model_dev_snap_date"><br><br>
+
+        <label for="gini_method">Gini Method:</label><br>
+        <select id="gini_method" name="gini_method">
+            <option value="scorepoint">SCORE POINT</option>
+            <option value="decile">DECILE</option>
+        </select><br><br>
+
+        <label for="gini_type">Gini Type:</label><br>
+        <select id="gini_type" name="gini_type">
+            <option value="monthly">MONTHLY</option>
+            <option value="quarterly">QUARTERLY</option>
+        </select><br><br>
+
+        <label for="mape_type">MAPE Type:</label><br>
+        <select id="mape_type" name="mape_type">
+            <option value="monthly">MONTHLY</option>
+            <option value="quarterly">QUARTERLY</option>
+        </select><br><br>
+
+        <input type="submit" value="Generate Output">
+    </form>
+    </div>
+    <img class="ai_image" src="ai_img.png" alt="Model Validation">
+    </div>
+    <br>
+    <div class="section3">
+    <h2>Output Data:</h2>
+    <p>Please click the button below to download the output document.</p>
+    <a href="/download" download="output.docx"><button>Download Output Doc</button></a>
+    </div>
+</body>
+</html>
